@@ -1,0 +1,373 @@
+/*
+Theme Name:     Hack de Overheid
+Author:         Dirk Geurs
+Template:       thematic
+*/
+
+/* Reset browser defaults */
+@import url('../thematic/library/styles/reset.css');
+
+/* Apply basic typography styles */
+@import url('../thematic/library/styles/typography.css');
+
+/* Apply a basic layout */
+@import url('../thematic/library/layouts/2c-r-fixed.css');
+
+/* Apply basic image styles */
+@import url('../thematic/library/styles/images.css');
+
+/* Apply default theme styles and colors */
+/* It's better to actually copy over default.css into this file (or link to a copy in your child theme) if you're going to do anything outrageous */
+@import url('../thematic/library/styles/default.css');
+
+/* Prepare theme for plugins */
+@import url('../thematic/library/styles/plugins.css');
+
+#post-entry-left {
+    float: left;
+}
+
+#container {
+padding-top: 15px;
+padding-left: 1px;
+}
+
+#primary {
+    border: none;
+    margin-bottom: 22px;
+    padding: 18px 0 0;
+    padding-top: 0px;
+    height: 682px;
+    left: 8px;
+     }
+
+
+
+#main {
+    padding-left: 0px;
+    padding-top: 20px;
+    background: url("./images/thinline.png") no-repeat scroll center top transparent;
+}
+
+#blog-title {
+font-family: Arial,sans-serif;
+font-size: 34px;
+font-weight: bold;
+line-height: 40px;
+padding-left: 7px;
+}
+
+#content .aside {
+    border: none;
+    margin: 0 0 22px;
+    padding: 18px 0 0;
+}
+
+#content .aside ul {
+padding: 0 0px;
+}
+
+#content .aside h3 {
+    border-bottom: medium none;
+    font-family: Georgia,serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: normal;
+    padding: 0 0 7px;
+    text-transform: none;
+}
+
+.aside ul ul {
+    list-style: disc outside none;
+    margin: 0 0 0px 3px;
+}
+
+.home .hentry, .category .hentry {
+    height: 150px;
+    margin-bottom: 20px;
+    padding: 0 0 0;
+}
+
+.aside h3 {
+    border-bottom: 1px solid #CCC;
+    font-size: 13px;
+    font-style: normal;
+    line-height: 22px;
+    padding-top: 14px;
+}
+
+#primary ul li h3 {
+     font-size: 16px;
+     }
+
+li#text-4 h3.widgettitle {
+color: black;
+}
+
+.main-aside ul ul {
+    padding-top: 20px;
+}
+
+.aside form, .aside table {
+    margin-bottom: 22px;
+    padding-top: 20px;
+}
+
+.entry-content {
+    padding: 0 0 0 0;
+}
+
+.entry-content .wp-post-image {
+    border: 1px solid #CCC;
+    float: left;
+    margin: 0 0 20px 18px;
+    padding: 5px;
+ }
+
+#post-entry-right {
+    position: relative;
+    float: right;
+    width: 321px;
+    height: 150px;
+    margin-left: 18px;
+}
+
+#post-entry-right .entry-content {
+    position: absolute;
+    bottom: 18px;
+    top: 43px;
+    border-bottom: 1px solid #ccc;
+}
+
+#post-entry-right .entry-meta {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #666;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 18px;
+    /* width: 315px;
+    float: left;
+    border-top: 1px solid #ccc; */
+}
+
+#post-entry-right .entry-utility {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0 0 0 0;
+}
+
+
+#main {
+    padding-top: 15px;
+    }
+
+
+#wrapper {
+  margin: 0 auto;
+width: 958px;
+
+}
+
+#access {
+   border-bottom: medium none;
+    float: left;
+    font-size: 13px;
+    overflow: visible;
+    z-index: 100;
+    left:9px;
+}
+
+
+.entry-title {
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 21px;
+}
+
+#main {
+    padding-top: 20px;
+    width: 939px;
+   }
+
+#content {
+margin: -1 0 0 10px;
+width: 639px;
+overflow: hidden;
+}
+
+
+
+#branding {
+    padding: 15px 0 12px;
+    background: url("./images/thinline.png") no-repeat scroll center bottom transparent;
+    width: 958px;
+    
+}
+
+#footer {
+    background: url("./images/thinline.png") no-repeat scroll 0 0 transparent;
+    border: none;
+    background-position: top;
+}
+
+#siteinfo {
+    color: #666666;
+    font-size: 11px;
+    line-height: 18px;
+    padding: 9px 0 0;
+}
+
+#siteinfo > p {
+    display: inline;
+    float: none;
+}
+
+.menu {
+    width: 630px;;
+    margin: 0 auto;
+}
+
+.menu ul {
+    margin: 0 auto;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    width: 630px;
+}
+
+
+.sf-menu a {
+    border-bottom: none;
+    border-left: none;
+    border-top: none;
+    padding: 9px 13px;
+    text-decoration: none;
+}
+
+.sf-menu {
+    border-right: none;
+    float: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+    font-weight: bold;
+}
+
+#contact-link {
+    float: right;
+}
+
+p, ul, ol, dd, pre {
+    color: #666666;
+    /* float: left; */
+    margin-bottom: 22px;
+}
+
+p.index-title {
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    font-size: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#social-access {
+  float: right;
+    height: 28px;
+    width: 152px;
+    padding-top: 5px;
+}
+
+#social-access p {
+    display: inline;
+    float: left;
+    margin: 0;
+    padding: 0;
+    }
+
+#social-access li {
+    display: inline;
+    float: left;
+    padding-left: 3px;
+}
+
+/*
+Contact form 7 
+*/
+
+.wpcf7 {
+margin: 0 0 20px;
+}
+
+.wpcf7 p {
+margin: 0 0 0.8em;
+}
+
+.wpcf7 p.req {
+text-align:right;
+}
+
+.wpcf7 fieldset p {
+background-color:#F2F2F2;
+margin:2px 0 0;
+padding:0.6em 76px 0.6em 13.8em;
+position:relative;
+}
+
+.wpcf7 fieldset p label {
+display:block;
+left:10px;
+position:absolute;
+top:0.6em;
+}
+
+.wpcf7 fieldset p input {
+border:1px solid #000000;
+width:100%;
+}
+
+.wpcf7 fieldset p select {
+width:100%;
+}
+.wpcf7 fieldset p textarea {
+border:1px solid #000000;
+height:6em;
+width:100%;
+}
+.wpcf7 fieldset p label.form-radio {
+left:0;
+margin-bottom:0.4em;
+position:static;
+top:auto;
+}
+.wpcf7 fieldset p label.form-radio input {
+vertical-align:text-bottom;
+width:auto;
+}
+.wpcf7 fieldset .submit, .wpcf7 fieldset button{
+background-color:#CCE0F1;
+border:1px solid #000000;
+color:#000000;
+cursor:pointer;
+line-height:1;
+margin-right:1.5em;
+padding:0 0.7em 0.1em;
+float: right;
+}
+
+.wpcf7 fieldset.form-navigation {
+margin:1em 0 0 13.8em;
+}
+
+.wpcf7-response-output  {
+border:2px solid #F2F2F2;
+}
+
+
+
+
+
